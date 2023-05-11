@@ -5,6 +5,8 @@ repo: upptime # The name of this repository
 sites:
   - name: LGE Members
     url: https://kr.lgemembers.com/lgacc/front/v1/signin
+  - name: 개발 로그인
+    url: https://dev.bsp.lgensol.com/bss?lati=37.526878&longi=126.927423
   - name: google.com
     url: https://google.com    
   - name: Hacker News
