@@ -3,9 +3,14 @@ owner: expopark # Your GitHub organization or username, where this repository li
 repo: upptime # The name of this repository
 
 sites:
-  - name: LGE Members
-    url: https://kr.lgemembers.com/lgacc/front/v1/signin
-  - name: dev.bsp.lgensol
+  - name: dev.bss.healthcheck
+    url: https://dev.bsp.lgensol.com
+  - name: dev.bss.login
+    url: https://dev.bsp.lgensol.com/user/login?
+    headers:
+      - 'Content-Type: application/json'
+    body: '{"userid":"kooroo", "userPwd": "1111"}'
+  - name: dev.bss
     url: https://dev.bsp.lgensol.com/bss?lati=37.526878&longi=126.927423
   - name: google.com
     url: https://google.com    
