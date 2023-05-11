@@ -7,6 +7,8 @@ sites:
     url: https://dev.bsp.lgensol.com
   - name: dev.login
     url: https://dev.bsp.lgensol.com/user/login
+    headers:
+      - 'Content-Type: application/json'
     body: '{"userid":"jh4@kooroo.com", "password": "jh4!"}'
   - name: dev.bss
     url: https://dev.bsp.lgensol.com/bss?lati=37.526878&longi=126.927423
