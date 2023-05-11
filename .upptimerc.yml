@@ -12,12 +12,6 @@ sites:
     body: '{"userid":"kooroo", "userPwd": "1111"}'
   - name: dev.bss
     url: https://dev.bsp.lgensol.com/bss?lati=37.526878&longi=126.927423
-  - name: google.com
-    url: https://google.com    
-  - name: Hacker News
-    url: https://news.ycombinator.com
-  - name: Test Broken Site
-    url: https://thissitedoesnotexist.koj.co
 
 status-website:
   # Add your custom domain name, or remove the `cname` line if you don't have a domain
