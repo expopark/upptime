@@ -7,19 +7,11 @@ sites:
     url: https://dev.bsp.lgensol.com
     expectedStatusCodes:
       - 200
-  - name: dev.login
-    url: https://dev.bsp.lgensol.com/user/login
-    expectedStatusCodes:
-      - 200
-      - USER_LOGIN_DUFLICATIE
-    headers:
-      - 'Content-Type: application/json'
-    body: '{ "userid":"jh4@kooroo.com", "password": "jh4!" }'
   - name: dev.bss
     url: https://dev.bsp.lgensol.com/bss?lati=37.526878&longi=126.927423
     expectedStatusCodes:
-      - 200    
-
+      - 200
+    
 status-website:
   # Add your custom domain name, or remove the `cname` line if you don't have a domain
   # Uncomment the `baseUrl` line if you don't have a custom domain and add your repo name there
@@ -37,3 +29,12 @@ status-website:
 
 # Upptime also supports notifications, assigning issues, and more
 # See https://upptime.js.org/docs/configuration
+
+#  - name: dev.login
+#    url: https://dev.bsp.lgensol.com/user/login
+#    expectedStatusCodes:
+#      - 200
+#      - USER_LOGIN_DUFLICATIE
+#    headers:
+#      - 'Content-Type: application/json'
+#    body: '{ "userid":"jh4@kooroo.com", "password": "jh4!" }'
