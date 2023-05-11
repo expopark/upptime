@@ -5,13 +5,20 @@ repo: upptime # The name of this repository
 sites:
   - name: dev.healthcheck
     url: https://dev.bsp.lgensol.com
+    expectedStatusCodes:
+      - 200
   - name: dev.login
     url: https://dev.bsp.lgensol.com/user/login
+    expectedStatusCodes:
+      - 200
+      - USER_LOGIN_DUFLICATIE
     headers:
       - 'Content-Type: application/json'
     body: '{ "userid":"jh4@kooroo.com", "password": "jh4!" }'
   - name: dev.bss
     url: https://dev.bsp.lgensol.com/bss?lati=37.526878&longi=126.927423
+    expectedStatusCodes:
+      - 200    
 
 status-website:
   # Add your custom domain name, or remove the `cname` line if you don't have a domain
