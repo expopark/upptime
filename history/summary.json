@@ -10,11 +10,11 @@
     "uptimeWeek": "100.00%",
     "uptimeMonth": "100.00%",
     "uptimeYear": "100.00%",
-    "time": 1287,
-    "timeDay": 1378,
-    "timeWeek": 1317,
-    "timeMonth": 1287,
-    "timeYear": 1287,
+    "time": 1340,
+    "timeDay": 2232,
+    "timeWeek": 1406,
+    "timeMonth": 1340,
+    "timeYear": 1340,
     "dailyMinutesDown": {}
   },
   {
@@ -23,18 +23,19 @@
     "icon": "https://icons.duckduckgo.com/ip3/dev.bsp.lgensol.com.ico",
     "slug": "dev-bss",
     "status": "down",
-    "uptime": "98.82%",
-    "uptimeDay": "89.54%",
-    "uptimeWeek": "98.51%",
-    "uptimeMonth": "98.82%",
-    "uptimeYear": "98.82%",
+    "uptime": "88.72%",
+    "uptimeDay": "0.00%",
+    "uptimeWeek": "84.15%",
+    "uptimeMonth": "88.72%",
+    "uptimeYear": "88.72%",
     "time": 210,
     "timeDay": 0,
-    "timeWeek": 213,
+    "timeWeek": 209,
     "timeMonth": 210,
     "timeYear": 210,
     "dailyMinutesDown": {
-      "2023-05-20": 44,
+      "2023-05-21": 52,
+      "2023-05-20": 1440,
       "2023-05-19": 106
     }
   }
